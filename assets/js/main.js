@@ -28,7 +28,7 @@ function start(e) {
 function drawing({ clientX: x, clientY: y }) {
     if (!isDrawing) return;
 
-    ctx.linewidth = stroke_weight.value;
+    ctx.lineWidth = stroke_weight.value;
     ctx.lineCap = "round";
     ctx.strokeStyle = color_picker.value;
 
